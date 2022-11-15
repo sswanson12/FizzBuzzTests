@@ -26,6 +26,6 @@ public class FizzBuzzService
             }
         }
 
-        return returnString;
+        return $"{returnString.Substring(1, returnString.Length - 2)}.";
     }
 }
